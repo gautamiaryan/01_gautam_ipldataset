@@ -1,0 +1,1 @@
+select winner,count(*) from IplDataSet.match  where winner!=" " group by winner;
